@@ -10,7 +10,7 @@ const Comments = ({ movie }) => {
 
   useEffect(() => {
     setMovieComments(comments);
-  }, [comments]);
+  }, []);
 
   const handleShowComments = () => {
     setShowComments(!showComments);
