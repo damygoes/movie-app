@@ -19,7 +19,6 @@ const MovieDetails = () => {
           relatedMovie.genre === movie.genre && relatedMovie.slug !== movie.slug
         );
       });
-      // console.log(relatedMovies);
       setRelatedMovies(relatedMovies);
     }
   }, [slug]);
